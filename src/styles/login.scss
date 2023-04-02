@@ -1,0 +1,28 @@
+@import "colors";
+.login{
+    height: 80vh;
+    width: 100%;
+    background-color: $pink;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    >button{
+         background-color:$lightdark;
+         color: $dark;
+         border: none;
+         border-radius: 10px;
+         padding: 1rem 2rem;
+         font-size: 1rem;
+         display: flex;
+         align-items: center;
+         cursor: pointer;
+         svg{
+            margin-left: 1rem;
+
+         }
+         &:hover{
+            color:$red;
+         }
+    }
+
+}
